@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "c8d49ed4d3c3eb53212932e8c588fd81",
+    "content-hash": "90a3e7521254c099f0088471b2563875",
     "packages": [
         {
             "name": "dhii/data-identifiable-interface",
@@ -50,16 +50,16 @@
         },
         {
             "name": "dhii/data-state-interface",
-            "version": "v0.1-alpha1",
+            "version": "v0.1-alpha2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Dhii/data-state-interface.git",
-                "reference": "8a74973cfd0e7a63d28c6414588bfdeb0cf7abb6"
+                "reference": "50a2de1183cc45b18820d14fe583817ca8c10ab3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Dhii/data-state-interface/zipball/8a74973cfd0e7a63d28c6414588bfdeb0cf7abb6",
-                "reference": "8a74973cfd0e7a63d28c6414588bfdeb0cf7abb6",
+                "url": "https://api.github.com/repos/Dhii/data-state-interface/zipball/50a2de1183cc45b18820d14fe583817ca8c10ab3",
+                "reference": "50a2de1183cc45b18820d14fe583817ca8c10ab3",
                 "shasum": ""
             },
             "require": {
@@ -83,20 +83,7 @@
                     "Dhii\\Data\\": "src"
                 }
             },
-            "autoload-dev": {
-                "psr-4": {
-                    "Dhii\\Data\\UnitTest\\": "test/unit",
-                    "Dhii\\Data\\FuncTest\\": "test/functional"
-                }
-            },
-            "scripts": {
-                "test": [
-                    "phpunit"
-                ],
-                "csfix": [
-                    "php-cs-fixer fix -vvv"
-                ]
-            },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -107,11 +94,7 @@
                 }
             ],
             "description": "Interfaces for dealing with stateful data objects.",
-            "support": {
-                "source": "https://github.com/Dhii/data-state-interface/tree/develop",
-                "issues": "https://github.com/Dhii/data-state-interface/issues"
-            },
-            "time": "2018-07-05T13:27:59+00:00"
+            "time": "2018-07-06T09:11:56+00:00"
         },
         {
             "name": "dhii/exception-interface",
